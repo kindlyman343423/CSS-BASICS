@@ -1,0 +1,39 @@
+http://w3c.github.io/developers/tools/#tools
+
+CHEATSHEET FIND ANY TAG INFO UPTO CURRENT VERSION 
+https://www.w3.org/2009/cheatsheet/
+
+NEW COLORS
+https://www.w3.org/TR/css-color/#svg-color
+
+ https://validator.w3.org/
+
+COLORS PROPERTIES
+
+1. color 
+https://www.w3.org/TR/css-color-3/#foreground
+
+2. background-color
+https://www.w3.org/TR/css-backgrounds-3/#the-background-color
+
+3. color values
+https://www.w3.org/TR/CSS22/syndata.html#value-def-color
+
+FONT PROPERTIES
+fonts
+https://www.w3.org/Style/Examples/007/fonts
+
+font-family
+https://www.w3.org/TR/css-fonts/#font-family-prop%20%20%20%20%20%20%20https://www.w3.org/Style/Examples/007/fonts.en.html
+
+font-size
+https://www.w3.org/Style/Examples/007/units.en.html
+https://www.w3.org/TR/css-fonts/#font-size-prop
+
+font-weight
+https://www.w3.org/TR/css-fonts/#font-weight-prop
+
+font-Style
+https://www.w3.org/TR/css-fonts/#font-style-prop
+
+
