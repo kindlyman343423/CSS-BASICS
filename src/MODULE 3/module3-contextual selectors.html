@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <style>
+            p img {
+            width: 100px;
+            }
+            p {
+            color: red;
+            }
+
+            section p {
+            color: blue;
+            }
+
+            ol {
+            list-style-type: upper-roman;
+            }
+            section ol {
+            list-style-type: lower-roman;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Title</h1>
+            <ol>
+              <li>Blog Post 1</li>
+              <li>Blog Post 2</li>
+              <li>Blog Post 3</li>      
+            </ol>
+            <p>
+             When you use two selectors separated by a space on a rule, you scope the rule to the elements that correspond to the selector on the right that are INSIDE the elements that correspond to the selector on the left. Let's say we have the following HTML:
+            </p>
+            </header>
+            <section>
+                <h2>Blog Post 1</h2>
+              <p>
+                If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width of 100px, but that rule would not apply to the images outside the paragraph. 
+              </p>  
+              <ol>
+                    <li>Below is a diagram of the given HTML</li>
+                    <li>with the two imgs that will styled by the above rule are indicated by the red arrows</li>
+                    <li>As your Web pages get more complex, contextual selectors become more important</li>
+                </ol>
+              </section>
+              <section>        
+                <h2>Blog Post 2</h2>
+                <p>
+             because it won't scale to apply classes and IDs to each individual item. Contextual selection becomes especially useful when you structure your HTML with section tags like header, section, article and footer. 
+                </p>
+                <ol>
+                    <li>Here is some code where you can see contextual selectors in action</li>
+                    <li>Note that there are differences between p elements and also differences between ol elements.</li>
+                </ol>
+            </section>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    background-color: #006666;
+    color: white;
+ }
+ h1:hover {
+    text-decoration: underline;
+ }
+ input {
+    border: 3px white solid;
+ }
+ input:hover {
+    border: 3px yellow solid;
+ }
+ input:active{
+    background-color: yellow;
+    border: 3px yellow solid;
+ }
+ button {
+    background-color: white;
+    color: #006666;
+    border: 3px white solid;
+ }
+ button:hover {
+    background-color: #006666;
+    color: white;
+ }
+ button:active {
+    background-color: #33cc99;
+ }
+ li:hover {
+    background-color: white;
+    color: #006666;
+ }
+ li:active {
+    background-color: #33cc99;
+    color: white;
+ }
+ a {
+    color: white;
+ }
+ a:active {
+    color: #33cc99;
+ }

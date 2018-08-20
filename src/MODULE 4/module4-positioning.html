@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<!--It's a best practice to always declare DOCTYPE!-->
+<html lang="en">
+  <head>
+    <title>Relative Positioning</title>
+      <meta charset="utf-8">
+      <style>
+          h1 {
+            background-color: red;
+            width: 300px;
+            position: relative;
+            left: 150px;
+            }
+            section {
+            background-color: orange;
+            height: 100px;
+            }
+            h2 {
+            position: relative;
+            top: 20px;
+            }
+            footer {
+            background-color: yellow;
+            height: 200px;
+            width: 300px;
+            position: relative;
+            left: 50px;
+            top: 50px;
+            }
+            h3 {
+            position: relative;
+            top: 50px;
+            left: 10px;
+            }
+      </style>
+  </head>
+  <body>
+    <h1>a shifted header relative to body</h1>
+    <section>
+      <h2>shifted header relative to section</h2>
+    </section>
+    <footer>
+      <h3>a shifted header in a shifted footer</h3>
+    </footer>
+  </body>
+</html>
