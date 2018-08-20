@@ -1,0 +1,28 @@
+#main-heading{
+    color: red;
+}
+.h2{
+    color: deeppink;
+}
+.h3{
+    color: black;
+}
+body{
+    background-color: lightyellow;
+}
+section{
+    border: 5px solid rgb(238, 234, 20);
+    margin: 10px;
+    padding: 10px;
+}
+article{
+    border: 1px solid rgb(211, 24, 211);
+    margin: 10px;
+    padding: 10px;
+}
+.rule{
+    /* color: deeppink;
+    background-color: deeppink; */
+    border: 1px solid rgb(230, 20, 230);
+    margin-top: -20px;
+}
